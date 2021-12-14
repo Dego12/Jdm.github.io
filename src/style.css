@@ -11,18 +11,33 @@
 h1{
     text-align: center;
     color: #ff3097;
-    size: 5000px;
+    font-size: 60px;
     font-family: jdm;
+    padding: 5px;
 }
 
 h2{
     text-align: center;
     color: #91fff2;
-    size: 4000px;
+    font-size: 70px;
     font-family: jdm2;
+    padding: 5px;
+}
+h3{
+    text-align: center;
+    color: #91fff2;
+    font-size: 70px;
+    font-family: jdm2;
+
+    border-color: #ff3097;
 }
 div.b{
     text-align: center;
+    color: #91fff2;
+    font-family: jdm2;
+}
+div.c{
+    text-align: left;
     color: #91fff2;
     font-family: jdm2;
 }
@@ -31,8 +46,18 @@ div.b{
     text-align: center;
     color: #91fff2;
     font-family: jdm2;
-    padding-left: 400px;
-    padding-right: 400px;
+    font-size: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.summary2{
+    align-content: initial;
+    color: #91fff2;
+    font-family: jdm2;
+    font-size: 30px;
+    margin-right: 900px;
+    margin-left: 100px;
+
 }
 
 ul{
@@ -41,12 +66,13 @@ ul{
     padding: 0;
     width: 1920px;
     overflow: hidden;
+    font-size: 25px;
     background-color: #ff3097;
 }
 
 li{
     float: left;
-    padding-left: 280px;
+    padding-left: 220px;
 }
 
 li a{
@@ -67,16 +93,30 @@ img{
     border-radius: 200px 0 200px 0;
     border-style: solid;
     border-color: #ff3097;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .floating{
     animation-name: floating;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     margin-left: 30px;
     margin-top: 5px;
-    padding-left: 550px;
+}
+
+.floating2{
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+    padding-left: 1000px;
+    display: flex;
+
 }
 
 @keyframes floating {
