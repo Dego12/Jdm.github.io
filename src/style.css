@@ -1,0 +1,93 @@
+@font-face {
+    font-family: jdm;
+    src: url("Ungai.ttf");
+}
+
+@font-face {
+    font-family: jdm2;
+    src: url("nuku1.ttf");
+}
+
+h1{
+    text-align: center;
+    color: #ff3097;
+    size: 5000px;
+    font-family: jdm;
+}
+
+h2{
+    text-align: center;
+    color: #91fff2;
+    size: 4000px;
+    font-family: jdm2;
+}
+div.b{
+    text-align: center;
+    color: #91fff2;
+    font-family: jdm2;
+}
+
+.summary{
+    text-align: center;
+    color: #91fff2;
+    font-family: jdm2;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    overflow: hidden;
+    background-color: #ff3097;
+}
+
+li{
+    float: left;
+    padding-left: 280px;
+}
+
+li a{
+    display: inline;
+    color: aqua;
+    padding: 14px 16px;
+    font-family: jdm;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: aqua;
+    font-family: jdm;
+    color: #ff3097;
+}
+
+img{
+    border-radius: 200px 0 200px 0;
+    border-style: solid;
+    border-color: #ff3097;
+}
+
+.floating{
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+    padding-left: 550px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }
+}
+
+body{
+    background-image: url("https://wallpapercave.com/wp/wp6100628.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
