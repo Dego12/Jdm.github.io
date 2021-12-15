@@ -60,7 +60,7 @@ div.c{
 
 }
 
-ul{
+.menu{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -70,12 +70,42 @@ ul{
     background-color: #ff3097;
 }
 
-li{
+.menu-list{
     float: left;
     padding-left: 220px;
 }
 
-li a{
+.assembly{
+    margin: 0;
+    width: 180%;
+    overflow: hidden;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.car-list{
+    float: left;
+    padding-left: 200px;
+    display: inline;
+    width: 10%;
+}
+
+.title-list{
+    float: right;
+    padding-top: 40px;
+    padding-right: 270px;
+    font-family: jdm2;
+    display: inline;
+    color: #91fff2;
+    text-align: left;
+    font-size: 40px;
+}
+
+.menu-list a{
     display: inline;
     color: aqua;
     padding: 14px 16px;
@@ -83,7 +113,7 @@ li a{
     text-align: center;
 }
 
-li a:hover {
+.menu-list a:hover {
     background-color: aqua;
     font-family: jdm;
     color: #ff3097;
