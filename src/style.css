@@ -60,6 +60,14 @@ div.c{
 
 }
 
+.summary3{
+    align-content: initial;
+    color: #91fff2;
+    font-family: jdm2;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
 .menu{
     list-style-type: none;
     margin: 0;
@@ -119,8 +127,17 @@ div.c{
     color: #ff3097;
 }
 
-img{
+.default{
     border-radius: 200px 0 200px 0;
+    border-style: solid;
+    border-color: #ff3097;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.default2{
+    border-radius: 0 200px 0 200px;
     border-style: solid;
     border-color: #ff3097;
     margin-left: auto;
@@ -145,8 +162,20 @@ img{
     margin-left: 30px;
     margin-top: 5px;
     float: right;
-    display: flex;
+}
 
+.floating3{
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+    float: left;
+}
+
+.smaller{
+    width: 50%;
 }
 
 @keyframes floating {
